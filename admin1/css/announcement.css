@@ -1,0 +1,11 @@
+.task {
+    border-right: 2px solid rgb(240, 188, 17);
+}
+
+.table {
+    padding-right: -50px;
+}
+
+.container-fluid .navbar-header .navbar-brand{
+	background-color: #12192C;
+}

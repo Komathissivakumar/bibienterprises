@@ -1,0 +1,38 @@
+<?php includes('includes/header.php');?>
+<?php includes('includes/navbar.php');?>
+<h1 class="mt-s">This is Faculties Page</h1>
+
+<div class="container py-5">
+<div class="row mt-4">
+<?php
+$con=mysqli_connect("localhost","root","","project");
+$query = "SELECT * FROM product";
+$query_run = mysqli_query($con,$query);
+$check_product = mysqli_num_rows($query_run)>0;
+if($check_product)
+{
+while($row =mysqli_fetch_array($query_run))
+{
+echo $row['product_name'];
+}
+}
+else
+{
+echo "No Products Found";
+}
+?>
+<div class="col-md-4">
+<div class="card">
+<div class="card-body">
+<img src="" class="card-img-top" alt="Faculty images">
+<h2 class="card-title">Dummy</h2>
+<p class="card-text">
+Dummy Data
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<?php include('includes/footer.php');
+?>

@@ -1,0 +1,59 @@
+/*
+Template Name:Megashop
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************gallery****************/
+.center_gallery{
+  padding-top:40px;
+  padding-bottom:40px;
+  }
+
+.center_product_main_right_1{
+ border-bottom:1px solid #eee;
+ padding-bottom:20px;
+ margin-bottom:20px;
+ }
+.center_product_main_right_1 ul li{
+ padding-left:5px;
+ padding-right:5px;
+ display:inline-block;
+ border-right:1px solid #eee; 
+  }
+.center_product_main_right_1 ul li a{
+color:#333; 
+  }
+.center_product_main_right_1 ul li a:hover{
+color:rgb(154,11,11);
+  }
+.page{
+ margin-bottom:15px; 
+  }
+/*********************gallery_end****************/
+
+
+@media screen and (max-width : 767px){
+.center_product_main_right_1 .col-sm-6{
+  text-align:center;
+  }
+.center_product_main_right_1 h2{
+margin-bottom:10px;  
+  }
+.page img{
+  margin-bottom:10px;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+ @media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1335px) {
+
+ }
+
+

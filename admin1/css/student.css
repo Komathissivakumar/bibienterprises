@@ -1,0 +1,18 @@
+.edit {
+    background-color: green;
+    color: #ffffff;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.delete {
+    background-color: red;
+    color: #ffffff;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.edit:hover,
+.delete:hover {
+    color: #000000;
+}

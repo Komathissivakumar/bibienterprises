@@ -1,0 +1,52 @@
+<?php 
+include "header.php";
+$con=mysqli_connect("localhost","root","","project");
+$query = "SELECT * FROM product ";
+$query_run= mysqli_query($con, $query);
+
+
+if(mysqli_num_rows($query_run) > 0)
+{
+	while($row=mysqli_fetch_assoc($query_run))
+	{
+		?>
+		<link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+			
+                <div class="col-md-3">
+                    <div class="card">
+                        
+                        <div class="card-body">
+						<img src="admin1/upload" class="card-img-top" alt="product">
+                            <h3 class="card-title"> <?php echo $row['product_name']; ?> </h3>
+							
+							<td>
+	<img src="admin1/upload<?php echo $row['image'];?>" style="width:60px;height:50px">
+	</td>
+	
+							<h3 class="card-title"> <?php echo $row['product_desc']; ?> </h3>
+                           
+                        </div>
+                    </div>
+					
+            </div>
+		<?php
+	}
+}
+	else
+	{
+    echo "No Products Found";
+    }
+?>
+
+            
+	 
+
+
+
+
+<?php
+include "footer.php";
+?>

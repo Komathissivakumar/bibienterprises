@@ -1,0 +1,295 @@
+/*
+Template Name:Megashop
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************center_product****************/
+.center_product{
+padding-top:40px;
+padding-bottom:40px;  
+  }
+.center_product_main_left_inner{
+  border:1px solid #ffcece;
+  padding:15px;
+  border-radius:5px;
+  }
+.center_product_main_left_inner h3{
+  font-size:22px;
+  color:#000;
+  }
+.center_product_main_left_inner hr{
+width:25%;
+margin-left:0;
+border-width:3px;
+border-color:rgb(154,11,11);
+  }
+.center_product_main_left_inner_1 .panel{
+ margin-bottom:0; 
+  }
+.center_product_main_left_inner_1 .panel-primary{
+ border:none; 
+ box-shadow:none;
+  }
+.center_product_main_left_inner_1 .panel-primary>.panel-heading{
+border:none;
+background:none;
+color:#666;
+background:#fffdc6;
+margin-top:1px;
+ }
+.panel-body{
+ padding-top:0;
+ padding-bottom:0; 
+  }
+.center_product_main_left_inner_1 ul li{
+margin-top:10px; 
+margin-bottom:10px;
+ }
+.center_product_main_left_inner_1  a{
+   color:rgb(154,11,11);
+ }
+.center_product_main_left_inner_1  a:hover{
+  color:#666;
+ }
+.center_product_main_left_inner_1  h4{
+font-size:18px;
+ }
+ 
+.center_product_main_left_inner_2{
+  border:1px solid #ffcece;
+  padding:15px;
+  border-radius:5px;
+  margin-top:15px;
+  }
+.center_product_main_left_inner_2 h3{
+  font-size:22px;
+  color:#000;
+  }
+.center_product_main_left_inner_2 .hr_1{
+width:25%;
+margin-left:0;
+border-width:3px;
+border-color:rgb(154,11,11);
+  }
+.center_product_main_left_inner_2 .hr_2{
+border-width:3px;
+  }
+.center_product_main_left_inner_2 h4{
+margin-top:30px;
+  }
+.center_product_main_left_inner_2 h4 a{
+color:#000;
+background:#ffc400;
+padding:8px 20px;
+border-radius:3px;
+  }
+.center_product_main_left_inner_2 h4 a:hover{
+background:rgb(154,11,11);
+color:#fff;
+  }
+.center_product_main_left_inner_2 h5{
+margin-top:30px;
+font-size:16px;
+color:#666;
+  }
+.center_product_main_left_inner_2 ul li{
+  margin-top:10px;
+  color:#666;
+  }
+.center_product_main_left_inner_2 ul li a{
+  color:#666;
+  }
+.center_product_main_left_inner_2 ul li a:hover{
+  color:rgb(154,11,11);
+  }
+  
+.center_product_main_left_inner_3{
+  border:1px solid #ffcece;
+  padding:15px;
+  border-radius:5px;
+  margin-top:15px;
+  }
+.center_product_main_left_inner_3 h3{
+  font-size:22px;
+  color:#000;
+  }
+.center_product_main_left_inner_3 .hr_1{
+width:25%;
+margin-left:0;
+border-width:3px;
+border-color:rgb(154,11,11);
+  }
+.center_product_main_left_inner_3 ul li{
+  display:inline-block;
+  border:1px solid #fff600;
+  margin-bottom:10px;
+  border-radius:5px;
+  }
+.center_product_main_left_inner_3 ul li a{
+ padding:6px;
+ display:block;
+ color:rgb(154,11,11);
+ 
+  }
+.center_product_main_left_inner_3 ul li a:hover{
+   color:#666;
+  }
+.center_product_main_left_inner_3_inner_right p{
+  font-size:16px;
+  }
+.center_product_main_left_inner_3_inner_right p a{
+  color:#666;
+  }
+.center_product_main_left_inner_3_inner_right h4{
+  color:#ffc400;
+  font-size:14px;
+  margin-top:10px;
+  margin-bottom:10px;
+  }
+.center_product_main_left_inner_3_inner_right h5{
+  font-size:16px;
+  color:#000;
+  }
+.center_product_main_left_inner_3_inner_right h5 span{
+  color:#999;
+  text-decoration:line-through;
+  margin-right:5px;
+  }
+.center_product_main_left_inner_3_inner{
+ margin-top:15px; 
+  }
+.center_product_main_left_inner_3_inner:hover p a{
+color:rgb(154,11,11); 
+  }
+.center_product_main_right_1 ul li{
+ padding-left:5px;
+ padding-right:5px;
+ display:inline-block;
+ border-right:1px solid #eee; 
+  }
+.center_product_main_right_1 ul li a{
+color:#333; 
+  }
+.center_product_main_right_1 ul li a:hover{
+color:rgb(154,11,11);
+  }
+.center_product_main_right_2 p{
+margin-top:20px;
+  }
+.center_product_main_right_3{
+margin-top:20px;
+padding-top:20px;
+border-top:1px solid #eee;
+  }
+.center_product_main_right_3 .form-control{
+ border-radius:0;
+ font-size:18px;
+ height:40px; 
+  }
+.center_product_main_right_4_inner h4{
+ color:#000; 
+ padding-left:15px;
+  }
+.center_product_main_right_4_inner h4 span{
+ color:#999;
+ text-decoration:line-through; 
+ margin-left:5px;
+  }
+  
+.center_product_main_right_4{
+  margin-top:20px;
+  }
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
+ background:rgb(154,11,11);
+ border-color:rgb(154,11,11); 
+  }
+.center_product_main_right_4 ul li a{
+ color:#000; 
+  }
+.center_product_main_right_4 ul li:hover a{
+color:#000;
+  }
+/*********************center_product_end****************/
+
+
+@media screen and (max-width : 767px){
+.center_product_main_left_inner{
+  text-align:center;
+  }
+.center_product_main_left  hr{
+ margin-left:auto!important; 
+ margin-right:auto!important; 
+  }
+.center_product_main_left_inner_2{
+  text-align:center;
+  }
+.center_product_main_left_inner_1 ul li{
+  display:inline-block;
+  margin:5px;  
+  }
+.center_product_main_left_inner_2 ul li{
+ display:inline-block;
+ margin:5px; 
+  }
+.center_product_main_left_inner_3 {
+   text-align:center;
+  }
+.center_product_main_left_inner_3_inner_right p{
+margin-top:10px;  
+  }
+.center_product_main_right_1 {
+ text-align:center;
+ margin-top:15px; 
+  }
+.center_product_main_right_1 .col-sm-6 {
+ text-align:center;
+ margin-top:10px; 
+  }
+.center_product_main_right_2 {
+  text-align:center;
+  }
+.center_product_main_right_3 {
+   text-align:center;
+  }
+.center_product_main_right_3 p{
+  margin-bottom:10px;
+  }
+.center_product_main_right_4 h4{
+text-align:center;
+padding-left:0;
+  }
+.center_product_main_right_4 .price{
+ width:100%;
+  }
+.center_product_main_right_4 .rating{
+ width:100%;
+  }
+.col-item{
+  margin-top:10px;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.center_product_main_left_inner_1 h4{
+  font-size:12px;
+  }
+.center_product_main_left_inner_1 ul li{
+  font-size:12px;
+  }
+.rating i{
+ font-size:14px; 
+  }
+ }
+ @media (min-width:992px) and (max-width:1200px) {
+.center_product_main_left_inner_1 h4{
+  font-size:17px;
+  }
+ }
+@media (min-width:1201px) and (max-width:1335px) {
+
+ }
+
+
+

@@ -1,0 +1,125 @@
+/*
+Template Name:Megashop
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************about****************/
+.center_about_main_left .carousel-indicators{
+  bottom:-45px;
+  }
+.center_about_main_left .carousel-indicators li{
+  background:#666;
+  width:15px;
+  height:15px;
+  }
+.center_about_main_left .carousel-indicators .active{
+ background:#000;
+  width:15px;
+  height:15px;
+  margin:1px; 
+  }
+.center_about_main_right p{
+ color:#666;
+ margin-top:15px; 
+  }
+.center_about_main_right h3{
+color:#000;
+  }
+.center_about_main_1{
+ margin-top:60px; 
+  }
+.center_about_main_1_inner h2{
+ color:#000;
+ padding-left:15px; 
+  }
+.center_about_main_1_inner_1{
+margin-top:30px;
+  }
+.center_about_main_1_inner_1_left h4{
+color:#999;
+margin-bottom:15px;
+  }
+.center_about_main_1_inner_1_left h4 i{
+margin-right:10px;
+color:rgb(154,11,11);
+  }
+.center_about_main_1_inner_1_left h4 a{
+
+color:rgb(154,11,11);
+  }
+.center_about_main_1_inner_1_left h4 a:hover{
+color:#000;
+  }
+.center_about_main_1_inner_1_left p{
+color:#666;
+  }
+.center_about_main_2{
+margin-top:40px;  
+  }
+.center_about_main_2_inner h4{
+margin-top:15px; 
+color:rgb(154,11,11);
+font-size:20px; 
+  }
+.center_about_main_2_inner h3{
+margin-top:10px; 
+margin-bottom:15px; 
+  }
+.center_about_main_2_inner h3 a{
+color:#000;
+  }
+.center_about_main_2_inner_1{
+ background:#f4f4f4;
+ padding-bottom:15px; 
+  }
+.center_about_main_2_inner_1:hover{
+background:rgb(154,11,11);
+  }
+.center_about_main_2_inner_1:hover h4{
+color:#fff;
+  }
+.center_about_main_2_inner_1:hover h3 a{
+color:#fff;
+  }
+/*********************about_end****************/
+
+
+@media screen and (max-width : 767px){
+.center_product_main_right_1 .col-sm-6{
+ text-align:center!important; 
+  }
+.center_product_main_right_1 h2{
+margin-bottom:10px; 
+  }
+.center_about_main_right {
+ margin-top:50px;
+ text-align:center;
+ }
+.center_about_main_1 {
+  text-align:center;
+  margin-top:20px;
+  }
+.center_about_main_1_inner_1_left {
+ margin-bottom:15px; 
+  }
+.center_about_main_2_inner {
+  margin-top:10px;
+  }
+.center_about_main_1_inner h2{
+padding-left:0;  
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+ @media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1335px) {
+
+ }
+
+

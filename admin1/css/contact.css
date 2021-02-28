@@ -1,0 +1,92 @@
+/*
+Template Name:Megashop
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************contact****************/
+.contact_1{
+   margin-bottom:40px;
+   }
+.contact_3_left{
+  margin-bottom:20px; 
+   }
+.contact_3_left h4{
+ letter-spacing:1px;
+ font-weight:bold;
+ margin-bottom:10px;
+ font-size:22px;  
+   }
+.contact_3_left p{
+ font-size:18px;
+ color:#666;
+ letter-spacing:1px; 
+  }
+.contact_3_right .comment_1{
+  margin-top:0;
+  }
+.contact_3_right .select_1{
+  min-height:100px;
+  }
+  
+.comment_1{
+  margin-top:30px;
+  background:#f4f4f4;
+  padding:30px;
+  border:1px solid #ccc;
+  }
+.comment_1 .select_1{
+  min-height:230px;
+   font-size:16px;
+  }
+.comment_1 .text_1_box{
+ margin-top:10px;
+ width:40%;
+ height:40px;
+ font-size:16px; 
+  }
+.comment_1  p {
+margin-top:35px;
+margin-bottom:20px;
+font-size:20px;
+  }
+.comment_1  p a{
+    padding: 15px 45px 15px 45px;
+    color: #000;
+	background:#ffc400;
+  }
+.comment_1  p a:hover{
+  background:rgb(154,11,11);
+  color:#fff;
+  }
+.comment_1 .heading_1{
+  letter-spacing:1px;
+  font-size:18px;
+  font-weight:bold;
+  margin-bottom:20px;
+  text-transform:uppercase;
+  }
+/*********************contact_end****************/
+
+
+@media screen and (max-width : 767px){
+.contact_2 {
+ text-align:center; 
+  }
+.comment_1 .text_1_box{
+  width:100%;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+ @media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1335px) {
+
+ }
+
+
